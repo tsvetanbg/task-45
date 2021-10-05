@@ -13,6 +13,11 @@
 /* Mixins, helpers and functions */
 @import "base/mixins";
 
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url('fonts/Roboto-Regular.ttf') format('truetype');
+}
+
 html {
   font-family: Roboto, sans-serif;
   background: $background;
